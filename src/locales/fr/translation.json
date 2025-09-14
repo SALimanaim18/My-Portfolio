@@ -1,0 +1,16 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "home": {
+    "welcome": "Bienvenue sur mon Portfolio",
+    "intro": "Actuellement en 5ème année en Informatique et Réseaux à l'École Marocaine des Sciences de l'Ingénieur à Casablanca. Je recherche un stage au sein de votre entreprise prestigieuse. Je suis très motivé(e) à développer continuellement mes compétences et à progresser professionnellement."
+  },
+  "about": {
+    "title": "À propos de moi",
+    "description": "Actuellement en 5ème année en Informatique et Réseaux à l'École Marocaine des Sciences de l'Ingénieur à Casablanca. Je recherche un stage au sein de votre entreprise prestigieuse. Je suis très motivé(e) à développer continuellement mes compétences et à progresser professionnellement."
+  }
+}

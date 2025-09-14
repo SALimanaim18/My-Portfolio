@@ -1,0 +1,16 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "welcome": "Welcome to my Portfolio",
+    "intro": "Currently a 5th-year Computer Science and Network Engineering student at the Moroccan School of Engineering Sciences in Casablanca. I am seeking an internship within your esteemed company. I am highly motivated to continuously develop my skills and grow professionally."
+  },
+  "about": {
+    "title": "About Me",
+    "description": "Currently a 5th-year Computer Science and Network Engineering student at the Moroccan School of Engineering Sciences in Casablanca. I am seeking an internship within your esteemed company. I am highly motivated to continuously develop my skills and grow professionally."
+  }
+}
