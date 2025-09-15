@@ -77,7 +77,7 @@ export default function ProjectsPage() {
   {selectedProject.mediaType === "images" && selectedProject.mediaUrls && selectedProject.mediaUrls.length > 0 ? (
     <>
       <img
-        src={process.env.PUBLIC_URL + selectedProject.mediaUrls[currentImage]}
+src={process.env.PUBLIC_URL + '/' + selectedProject.mediaUrls[currentImage]}
         alt={selectedProject.name}
         className="w-full object-cover rounded-xl transition-all duration-500"
       />
@@ -97,8 +97,8 @@ export default function ProjectsPage() {
     </>
   ) : selectedProject.mediaType === "video" && selectedProject.mediaUrl ? (
     <video
-      src={process.env.PUBLIC_URL + selectedProject.mediaUrl}
-      controls
+  src={process.env.PUBLIC_URL + '/' + selectedProject.mediaUrl}
+        controls
       className="rounded-xl max-w-full max-h-[500px] w-auto h-auto"
     >
       Votre navigateur ne supporte pas la lecture de vidéo.

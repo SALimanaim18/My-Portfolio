@@ -45,7 +45,7 @@
       "description": "Developed the front office using React.js to manage the user interface and facilitate communication with the backend API. Created a REST API with Spring Boot to handle blood donation and request features, including user authentication and management. Implemented the back office using Spring Boot and Thymeleaf for the administration of donor and requester data.",
       "github": "https://github.com/SALimanaim18/BloodConnectApp",
       "mediaType": "video",
-      "mediaUrl": "/videos/BloodConnect.mp4"
+      "mediaUrl": "videos/BloodConnect.mp4"
     },
    
     {
@@ -54,7 +54,7 @@
       "description": "Developed a mobile application to track student absences for our educational institution.",
     "github": "https://github.com/SALimanaim18/EmsiSmartPresence",
      "mediaType": "video",
-      "mediaUrl": "/videos/EmsiSmartPresence.mp4"
+      "mediaUrl": "videos/EmsiSmartPresence.mp4"
     },
     {
       "name": "Car Brokerage Website",
@@ -63,15 +63,15 @@
       "github": "https://github.com/SALimanaim18/CarApp",
         "mediaType": "images",
   "mediaUrls": [
-    "/images/Cardealer1.png",
-     "/images/Cardealer3.png",
-     "/images/Cardealer4.png",
-          "/images/Cardealer5.png",
-     "/images/Cardealer6.png",
-     "/images/Cardealer7.png",
-     "/images/Cardealer8.png",
-     "/images/Cardealer9.png",
-     "/images/Cardealer10.png"
+    "images/Cardealer1.png",
+     "images/Cardealer3.png",
+     "images/Cardealer4.png",
+          "images/Cardealer5.png",
+     "images/Cardealer6.png",
+     "images/Cardealer7.png",
+     "images/Cardealer8.png",
+     "images/Cardealer9.png",
+     "images/Cardealer10.png"
 
 
 
@@ -84,7 +84,7 @@
       "description": "Developed a solution for managing inventory, sales, and orders for small businesses.",
       "github": "https://github.com/SALimanaim18/",
       "mediaType": "video",
-      "mediaUrl": "/videos/StockSens.mp4"
+      "mediaUrl": "videos/StockSens.mp4"
 
     },
     {
