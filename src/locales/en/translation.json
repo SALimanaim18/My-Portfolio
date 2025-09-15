@@ -30,7 +30,7 @@
     "os": { "title": "Operating Systems" }
   },
     
-  "projects": {
+  "project": {
     "title": "Projects",
     "description": "I have developed several web and mobile applications, showcasing my skills in front-end, back-end, and database development.",
     "cta": "See more"

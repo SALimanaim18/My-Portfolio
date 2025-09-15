@@ -4,6 +4,7 @@ import '../index.css';
 import About from './About';
 import Skills from './Skills';
 import Projects from './Projects';
+
 export default function Home() {
   const { t } = useTranslation();
 
@@ -54,7 +55,7 @@ export default function Home() {
 
           <div className="flex justify-center gap-4">
             <a
-              href="#projects"
+              href="./projects-page"
               className="px-6 py-3 rounded-full btn-blue font-semibold shadow-lg transform transition btn-1 btn-hover"
             >
               {t('home.cta_projects')}
@@ -69,7 +70,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Autres sections */}
+      {/* sections */}
       <About id="about" />
       <Skills id="skills" />
       <Projects id="projects" />

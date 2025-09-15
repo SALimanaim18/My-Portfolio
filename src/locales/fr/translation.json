@@ -30,7 +30,7 @@
     "modeling": { "title": "Modélisation & Gestion de projets" },
     "os": { "title": "Systèmes d'exploitation" }
   },
-   "projects": {
+   "project": {
     "title": "Projets",
     "description": "J'ai réalisé plusieurs applications web et mobiles, mettant en avant mes compétences en développement front-end, back-end et bases de données.",
     "cta": "Voir plus"

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   const { t, i18n } = useTranslation();
@@ -19,16 +19,13 @@ export default function Navbar() {
           <HashLink smooth to="/#home">{t('navbar.home')}</HashLink>
           <HashLink smooth to="/#about">{t('navbar.about')}</HashLink>
           <HashLink smooth to="/#skills">{t('navbar.skills')}</HashLink>
-          <Link to="/projects-page">{t('navbar.projects')} </Link>
+          <Link to="/projects-page">{t('navbar.projects')}</Link>
         </div>
 
         <div className="flex items-center gap-3">
           <button onClick={() => i18n.changeLanguage('en')} className="px-3 py-1 rounded border border-primary text-primary hover:bg-primary hover:text-white transition">EN</button>
           <button onClick={() => i18n.changeLanguage('fr')} className="px-3 py-1 rounded border border-primary text-primary hover:bg-primary hover:text-white transition">FR</button>
-          <button
-            onClick={() => setOpen(!open)}
-            className="md:hidden text-2xl text-primary"
-          >
+          <button onClick={() => setOpen(!open)} className="md:hidden text-2xl text-primary">
             {open ? '✖' : '☰'}
           </button>
         </div>

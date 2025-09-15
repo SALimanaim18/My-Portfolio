@@ -18,7 +18,7 @@ export default function Projects() {
 
       {/* Description */}
       <p className="text-center text-lg md:text-xl text-gray-700 max-w-3xl mb-8">
-        {t('projects.description')}
+        {t('project.description')}
       </p>
 
       {/* Bouton "Voir plus" */}
@@ -26,7 +26,7 @@ export default function Projects() {
         to="/projects-page"
         className="px-6 py-3 bg-[rgba(93,79,72,0.9)] text-white font-semibold rounded-xl hover:bg-[#413e9eff] hover:scale-105 transition transform duration-300"
       >
-        {t('projects.cta')}
+        {t('project.cta')}
       </Link>
     </section>
   );
