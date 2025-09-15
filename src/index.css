@@ -2,21 +2,100 @@
 @tailwind components;
 @tailwind utilities;
 
-@keyframes fade-in {
-  from { opacity: 0; }
-  to { opacity: 1; }
+/* extra utility for backdrop glass */
+.bg-glass {
+  background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(8px);
+}
+.bubble {
+  position: absolute;
+  border-radius: 9999px;
+  opacity: 0.25;
+  filter: blur(6px);
+  transform-origin: center;
 }
 
-@keyframes slide-up {
-  from { transform: translateY(20px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
+/* animation descendante */
+@keyframes floatDown {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(120vh); }
 }
 
-@keyframes slide-left {
-  from { transform: translateX(-20px); opacity: 0; }
-  to { transform: translateX(0); opacity: 1; }
+/* petit mouvement vertical */
+@keyframes bobble {
+  0% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(10px) scale(0.98); }
+  100% { transform: translateY(0) scale(1); }
+}
+.shiny-text {
+  position: relative;
+  display: inline-block;
 }
 
-.animate-fade-in { animation: fade-in 1s ease-in-out forwards; }
-.animate-slide-up { animation: slide-up 0.8s ease-out forwards; }
-.animate-slide-left { animation: slide-left 0.8s ease-out forwards; }
+.shiny-text::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    rgba(255,255,255,0.6) 0%,
+    rgba(255,255,255,0.0) 50%,
+    rgba(255,255,255,0.6) 100%
+  );
+  transform: skewX(-25deg);
+  animation: shine 2s infinite;
+}
+
+@keyframes shine {
+  0% { left: -75%; }
+  100% { left: 125%; }
+}
+/* Couleur principale bleue */
+.btn-blue {
+  background-color: #413e9eff;
+  border-color: #413e9eff;
+  color: white;
+}
+
+/* Animation pulse alternée */
+@keyframes pulse-single {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0px rgba(65, 62, 158, 0.5);
+  }
+  50% {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(65, 62, 158, 0.7);
+  }
+}
+
+/* Animation pour le premier bouton */
+.btn-1 {
+  animation: pulse-single 2s infinite;
+}
+
+/* Animation pour le deuxième bouton avec décalage */
+.btn-2 {
+  animation: pulse-single 2s infinite 1s;
+}
+
+/* Hover pour tous les boutons bleus */
+.btn-hover:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 25px rgba(65, 62, 158, 0.8);
+}
+@keyframes bubble {
+  0% { transform: translateY(0) scale(1); opacity: 0.2; }
+  50% { transform: translateY(-30px) scale(1.2); opacity: 0.4; }
+  100% { transform: translateY(0) scale(1); opacity: 0.2; }
+}
+
+.animate-bubble {
+  animation-name: bubble;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+

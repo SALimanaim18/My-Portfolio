@@ -1,42 +1,47 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
-const Navbar = () => {
+export default function Navbar() {
   const { t, i18n } = useTranslation();
-  const [isOpen, setIsOpen] = useState(false);
-
-  const changeLanguage = (lang) => i18n.changeLanguage(lang);
+  const [open, setOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-md fixed w-full z-50 transition-all duration-500">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        <div className="text-2xl font-bold text-[#76665D] tracking-wider">Portfolio</div>
-        <div className="hidden md:flex gap-8 text-[#76665D] font-medium">
-          <a href="#home" className="hover:text-sky-400 transition duration-300">Home</a>
-          <a href="#about" className="hover:text-sky-400 transition duration-300">About</a>
-          <a href="#projects" className="hover:text-sky-400 transition duration-300">Projects</a>
-          <a href="#contact" className="hover:text-sky-400 transition duration-300">Contact</a>
+    <header className="fixed w-full z-50">
+      <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between bg-white/80 backdrop-blur-md shadow-md rounded-b-lg">
+        <div className="flex items-center gap-4">
+          <div className="w-10 h-10 rounded-full bg-primary/90 flex items-center justify-center text-white font-bold">S</div>
+          <div className="text-xl font-semibold text-primary tracking-wide">Salima Naim</div>
         </div>
-        <div className="flex gap-2">
-          <button onClick={() => changeLanguage('en')} className="px-3 py-1 border border-[#76665D] text-[#76665D] rounded hover:bg-sky-400 hover:text-white transition">EN</button>
-          <button onClick={() => changeLanguage('fr')} className="px-3 py-1 border border-[#76665D] text-[#76665D] rounded hover:bg-sky-400 hover:text-white transition">FR</button>
+
+        <div className="hidden md:flex items-center gap-8 text-primary font-medium">
+          <HashLink smooth to="/#home">{t('navbar.home')}</HashLink>
+          <HashLink smooth to="/#about">{t('navbar.about')}</HashLink>
+          <HashLink smooth to="/#skills">{t('navbar.skills')}</HashLink>
+          <Link to="/projects-page">{t('navbar.projects')} </Link>
         </div>
-        <div className="md:hidden">
-          <button onClick={() => setIsOpen(!isOpen)} className="text-[#76665D] focus:outline-none text-2xl">
-            {isOpen ? '✖' : '☰'}
+
+        <div className="flex items-center gap-3">
+          <button onClick={() => i18n.changeLanguage('en')} className="px-3 py-1 rounded border border-primary text-primary hover:bg-primary hover:text-white transition">EN</button>
+          <button onClick={() => i18n.changeLanguage('fr')} className="px-3 py-1 rounded border border-primary text-primary hover:bg-primary hover:text-white transition">FR</button>
+          <button
+            onClick={() => setOpen(!open)}
+            className="md:hidden text-2xl text-primary"
+          >
+            {open ? '✖' : '☰'}
           </button>
         </div>
-      </div>
-      {isOpen && (
-        <div className="md:hidden bg-white shadow-md flex flex-col gap-4 px-6 py-4 animate-fade-in">
-          <a href="#home" className="hover:text-sky-400 transition duration-300">Home</a>
-          <a href="#about" className="hover:text-sky-400 transition duration-300">About</a>
-          <a href="#projects" className="hover:text-sky-400 transition duration-300">Projects</a>
-          <a href="#contact" className="hover:text-sky-400 transition duration-300">Contact</a>
+      </nav>
+
+      {open && (
+        <div className="md:hidden bg-white/90 backdrop-blur-md shadow p-4 flex flex-col gap-3">
+          <HashLink smooth to="/#home">{t('navbar.home')}</HashLink>
+          <HashLink smooth to="/#about">{t('navbar.about')}</HashLink>
+          <HashLink smooth to="/#skills">{t('navbar.skills')}</HashLink>
+          <Link to="/projects-page">{t('navbar.projects')}</Link>
         </div>
       )}
-    </nav>
+    </header>
   );
-};
-
-export default Navbar;
+}

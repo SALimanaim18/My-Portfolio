@@ -2,15 +2,85 @@
   "navbar": {
     "home": "Home",
     "about": "About",
+    "skills": "skills",
     "projects": "Projects",
     "contact": "Contact"
   },
   "home": {
-    "welcome": "Welcome to my Portfolio",
-    "intro": "Currently a 5th-year Computer Science and Network Engineering student at the Moroccan School of Engineering Sciences in Casablanca. I am seeking an internship within your esteemed company. I am highly motivated to continuously develop my skills and grow professionally."
+    "greeting": "Welcome to my portfolio",
+"intro": "Explore a selection of my development projects, highlighting my technical skills, creativity, and problem-solving abilities. Each project demonstrates my commitment to building functional, user-friendly, and innovative applications. This portfolio showcases my development expertise, attention to detail, and passion for delivering high-quality solutions that meet user needs.",    "cta_projects": "See Projects",
+    "cta_contact": "Contact Me"
   },
   "about": {
     "title": "About Me",
-    "description": "Currently a 5th-year Computer Science and Network Engineering student at the Moroccan School of Engineering Sciences in Casablanca. I am seeking an internship within your esteemed company. I am highly motivated to continuously develop my skills and grow professionally."
-  }
+    "description": "Currently in my 5th year of Computer Science and Network Engineering at EMSI Casablanca, and in the process of preparing my engineering degree, I am a motivated and detail-oriented, with hands-on experience building full-stack applications, designing relational databases, and solving complex problems. I am also currently developing my skills in AI and DevOps. I enjoy learning new technologies and working in teams. My goal is to contribute to impactful projects while continuously developing my technical and professional skills.",       "quickFactsTitle": "Quick Facts",
+    "quickFacts": {
+      "school": "EMSI Casablanca",
+      "currentYear": "5th year - Computer Science & Network Engineering",
+      "diploma": "Full Stack Development Diploma - ISGI Center (2021-2023)",
+      "baccalaureate": "Scientific Baccalaureate - Highest Honors (2021)"
+    }},
+    "skills": {
+    "title": "Skills",
+    "programmingLanguages": { "title": "Programming Languages" },
+    "frameworks": { "title": "Frameworks & Technologies" },
+    "databases": { "title": "Databases" },
+    "tools": { "title": "Development Tools & Environments" },
+    "modeling": { "title": "Modeling & Project Management" },
+    "os": { "title": "Operating Systems" }
+  },
+    
+  "projects": {
+    "title": "Projects",
+    "description": "I have developed several web and mobile applications, showcasing my skills in front-end, back-end, and database development.",
+    "cta": "See more"
+  },
+  "projects": {
+  "title": "Projects",
+  "technologies": "Technologies",
+  "list": [
+    {
+      "name": "Blood Transfusion Web Application",
+      "technologies": "React, Spring Boot, Thymeleaf, Oracle",
+      "description": "Developed the front office using React.js to manage the user interface and facilitate communication with the backend API. Created a REST API with Spring Boot to handle blood donation and request features, including user authentication and management. Implemented the back office using Spring Boot and Thymeleaf for the administration of donor and requester data.",
+      "github": "https://github.com/SALimanaim18/BloodConnectApp"
+
+    },
+   
+    {
+      "name": "Mobile Absence Tracking Application",
+      "technologies": "Java",
+      "description": "Developed a mobile application to track student absences for our educational institution.",
+    "github": "https://github.com/SALimanaim18/EmsiSmartPresence"
+    },
+    {
+      "name": "Car Brokerage Website",
+      "technologies": "Django, Python, HTML/CSS, JavaScript",
+      "description": "Created a secure platform connecting car buyers and sellers.",
+      "github": "https://github.com/SALimanaim18/CarApp"
+
+    },
+    {
+      "name": "Inventory Management Web Application",
+      "technologies": "PHP, MySQL, JavaScript",
+      "description": "Developed a solution for managing inventory, sales, and orders for small businesses.",
+      "github": "https://github.com/SALimanaim18/"
+
+    },
+    {
+      "name": "Mini Bank Account Management Application",
+      "technologies": "C++",
+      "description": "Programmed a secure banking account management system with interest calculations and transaction features.",
+      "github": "https://github.com/SALimanaim18/"
+
+    },
+     {
+      "name": "Chat Application",
+      "technologies": "Spring Boot, Angular, Firebase",
+      "description": "Built a real-time chat application using Spring Boot and Angular. Managed users, messages, and real-time connectivity.",
+            "github": "https://github.com/SALimanaim18/ChatApp"
+
+    }
+  ]
+}
 }
