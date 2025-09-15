@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState , useEffect} from "react";
 import { useTranslation } from "react-i18next";
 import Navbar from "../components/Navbar";
 
@@ -6,6 +6,7 @@ export default function ProjectsPage() {
   const { t } = useTranslation();
   const projectsList = t("projects.list", { returnObjects: true });
   const [selectedProject, setSelectedProject] = useState(projectsList[0]);
+
 
   return (
     <div className="min-h-screen bg-gray-50">

@@ -4,6 +4,7 @@ import '../index.css';
 import About from './About';
 import Skills from './Skills';
 import Projects from './Projects';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   const { t } = useTranslation();
@@ -54,12 +55,12 @@ export default function Home() {
           </p>
 
           <div className="flex justify-center gap-4">
-            <a
-              href="./projects-page"
-              className="px-6 py-3 rounded-full btn-blue font-semibold shadow-lg transform transition btn-1 btn-hover"
-            >
-              {t('home.cta_projects')}
-            </a>
+          <Link
+  to="/projects-page"
+  className="px-6 py-3 rounded-full btn-blue font-semibold shadow-lg transform transition btn-1 btn-hover"
+>
+  {t('home.cta_projects')}
+</Link>
             <a
               href="#contact"
               className="px-6 py-3 rounded-full btn-white border-blue-900 text-blue-900 border-2 font-semibold transform transition btn-2 btn-hover"
