@@ -42,32 +42,47 @@
     {
       "name": "Application Web de Transfusion Sanguine",
       "technologies": "React, Spring Boot, Thymeleaf, Oracle",
-      "description": "Développement du front office avec React.js pour gérer l'interface utilisateur et faciliter la communication avec l'API backend. Création d'une API REST avec Spring Boot pour gérer les dons et demandes de sang, y compris l'authentification et la gestion des utilisateurs. Mise en place du back office avec Spring Boot et Thymeleaf pour administrer les données des donneurs et des demandeurs."
+      "description": "Développement du front office avec React.js pour gérer l'interface utilisateur et faciliter la communication avec l'API backend. Création d'une API REST avec Spring Boot pour gérer les dons et demandes de sang, y compris l'authentification et la gestion des utilisateurs. Mise en place du back office avec Spring Boot et Thymeleaf pour administrer les données des donneurs et des demandeurs.",
+      "github": "https://github.com/SALimanaim18/BloodConnectApp"
+
     },
     {
       "name": "Application Mobile de Suivi des Absences",
       "technologies": "Java",
-      "description": "Développement d'une application mobile pour suivre les absences des étudiants dans notre établissement."
+      "description": "Développement d'une application mobile pour suivre les absences des étudiants dans notre établissement.",
+      "github": "https://github.com/SALimanaim18/EmsiSmartPresence"
+
     },
     {
       "name": "Site Web de Courtage Automobile",
       "technologies": "Django, Python, HTML/CSS, JavaScript",
-      "description": "Création d'une plateforme sécurisée reliant les acheteurs et les vendeurs de voitures."
+      "description": "Création d'une plateforme sécurisée reliant les acheteurs et les vendeurs de voitures.",
+      "github": "https://github.com/SALimanaim18/CarApp"
+
     },
     {
       "name": "Application Web de Gestion de Stock",
       "technologies": "PHP, MySQL, JavaScript",
-      "description": "Développement d'une solution pour gérer les stocks, les ventes et les commandes pour les petites entreprises."
+      "description": "Développement d'une solution pour gérer les stocks, les ventes et les commandes pour les petites entreprises.",
+      "github": "https://github.com/SALimanaim18/"
+
+
     },
     {
       "name": "Application de Gestion de Comptes Bancaires",
       "technologies": "C++",
-      "description": "Programmation d'un système sécurisé de gestion de comptes bancaires avec calcul des intérêts et gestion des transactions."
+      "description": "Programmation d'un système sécurisé de gestion de comptes bancaires avec calcul des intérêts et gestion des transactions.",
+       "github": "https://github.com/SALimanaim18/"
+
+    
     },
       {
       "name": "Application de Chat",
       "technologies": "Spring Boot, Angular, Firebase",
-      "description": "Création d'une application de chat en temps réel avec Spring Boot et Angular. Gestion des utilisateurs, des messages et de la connectivité en temps réel."
+      "description": "Création d'une application de chat en temps réel avec Spring Boot et Angular. Gestion des utilisateurs, des messages et de la connectivité en temps réel.",
+      "github": "https://github.com/SALimanaim18/ChatApp"
+
+    
     }
   ]
 }
