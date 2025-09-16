@@ -8,7 +8,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="min-h-screen px-6 py-16 bg-white flex flex-col items-center justify-start relative"
+      className="min-h-screen  px-6 py-16 bg-white flex flex-col items-center justify-start relative"
     >
       {/* Titre */}
       <h2 className="text-4xl md:text-5xl font-extrabold text-[#413e9eff] mt-10 mb-6 relative inline-block animate-slide-up">

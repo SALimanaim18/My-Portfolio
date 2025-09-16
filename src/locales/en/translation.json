@@ -32,7 +32,7 @@
     
   "project": {
     "title": "Projects",
-    "description": "I have developed several web and mobile applications, showcasing my skills in front-end, back-end, and database development.",
+"description": "I have designed and developed multiple web and mobile applications, demonstrating strong expertise in front-end frameworks, back-end architectures, and database management. My work involves building responsive and user-friendly interfaces, implementing efficient server-side logic, and ensuring data integrity and security. Through these projects, I have gained extensive experience in full-stack development, API integration, and deploying applications in real-world environments, consistently delivering high-quality, maintainable, and scalable solutions.",
     "cta": "See more"
   },
   "projects": {
@@ -102,5 +102,13 @@
 
     }
   ]
+},
+"contact": {
+  "title": "Contact Me",
+  "phone": "Phone",
+  "email": "Email",
+  "linkedin": "LinkedIn",
+  "github": "GitHub"
 }
+
 }

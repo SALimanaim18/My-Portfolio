@@ -13,15 +13,16 @@
     "cta_contact": "Me contacter"
   },
   "about": {
-   "title": "À propos de moi",
-    "description": "Actuellement en 5ᵉ année d'ingénierie Informatique et Réseaux à l'EMSI Casablanca, et en cours de la préparation de mon diplôme d'ingénieur, motivée et rigoureuse, avec une expérience pratique dans la conception d’applications full-stack, la conception de bases de données relationnelles et la résolution de problèmes complexes. Je suis également en cours de développement de mes compétences en IA et DevOps. J’aime apprendre de nouvelles technologies et travailler en équipe. Mon objectif est de contribuer à des projets à fort impact tout en développant continuellement mes compétences techniques et professionnelles.",    "quickFacts": {
+    "title": "À propos de moi",
+    "description": "Actuellement en 5ᵉ année d'ingénierie Informatique et Réseaux à l'EMSI Casablanca, et en cours de la préparation de mon diplôme d'ingénieur, motivée et rigoureuse, avec une expérience pratique dans la conception d’applications full-stack, la conception de bases de données relationnelles et la résolution de problèmes complexes. Je suis également en cours de développement de mes compétences en IA et DevOps. J’aime apprendre de nouvelles technologies et travailler en équipe. Mon objectif est de contribuer à des projets à fort impact tout en développant continuellement mes compétences techniques et professionnelles.",
+    "quickFacts": {
       "school": "EMSI Casablanca",
       "diploma": "Développeuse Full Stack Web, ISGI, 2023",
       "baccalaureate": "Scientifique, Mention Très Bien, 2021",
       "currentYear": "5ème année, Informatique et Réseaux"
     }
   },
-   "skills": {
+  "skills": {
     "title": "Compétences",
     "programmingLanguages": { "title": "Langages de programmation" },
     "frameworks": { "title": "Frameworks & Technologies" },
@@ -30,62 +31,77 @@
     "modeling": { "title": "Modélisation & Gestion de projets" },
     "os": { "title": "Systèmes d'exploitation" }
   },
-   "project": {
+  "project": {
     "title": "Projets",
-    "description": "J'ai réalisé plusieurs applications web et mobiles, mettant en avant mes compétences en développement front-end, back-end et bases de données.",
+"description": "J'ai conçu et développé plusieurs applications web et mobiles, démontrant une solide expertise dans les frameworks front-end, les architectures back-end et la gestion de bases de données. Mon travail inclut la création d'interfaces réactives et conviviales, la mise en œuvre de logiques serveur efficaces et l'assurance de l'intégrité et de la sécurité des données. À travers ces projets, j'ai acquis une expérience approfondie en développement full-stack, intégration d'API et déploiement d'applications dans des environnements réels, en livrant systématiquement des solutions de haute qualité, maintenables et évolutives.",
     "cta": "Voir plus"
   },
   "projects": {
-  "title": "Projets",
-  "technologies": "Technologies",
-  "list": [
-    {
-      "name": "Application Web de Transfusion Sanguine",
-      "technologies": "React, Spring Boot, Thymeleaf, Oracle",
-      "description": "Développement du front office avec React.js pour gérer l'interface utilisateur et faciliter la communication avec l'API backend. Création d'une API REST avec Spring Boot pour gérer les dons et demandes de sang, y compris l'authentification et la gestion des utilisateurs. Mise en place du back office avec Spring Boot et Thymeleaf pour administrer les données des donneurs et des demandeurs.",
-      "github": "https://github.com/SALimanaim18/BloodConnectApp"
-
-    },
-    {
-      "name": "Application Mobile de Suivi des Absences",
-      "technologies": "Java",
-      "description": "Développement d'une application mobile pour suivre les absences des étudiants dans notre établissement.",
-      "github": "https://github.com/SALimanaim18/EmsiSmartPresence"
-
-    },
-    {
-      "name": "Site Web de Courtage Automobile",
-      "technologies": "Django, Python, HTML/CSS, JavaScript",
-      "description": "Création d'une plateforme sécurisée reliant les acheteurs et les vendeurs de voitures.",
-      "github": "https://github.com/SALimanaim18/CarApp"
-
-    },
-    {
-      "name": "Application Web de Gestion de Stock",
-      "technologies": "PHP, MySQL, JavaScript",
-      "description": "Développement d'une solution pour gérer les stocks, les ventes et les commandes pour les petites entreprises.",
-      "github": "https://github.com/SALimanaim18/"
-
-
-    },
-    {
-      "name": "Application de Gestion de Comptes Bancaires",
-      "technologies": "C++",
-      "description": "Programmation d'un système sécurisé de gestion de comptes bancaires avec calcul des intérêts et gestion des transactions.",
-       "github": "https://github.com/SALimanaim18/"
-
-    
-    },
+    "title": "Projets",
+    "technologies": "Technologies",
+    "list": [
       {
-      "name": "Application de Chat",
-      "technologies": "Spring Boot, Angular, Firebase",
-      "description": "Création d'une application de chat en temps réel avec Spring Boot et Angular. Gestion des utilisateurs, des messages et de la connectivité en temps réel.",
-      "github": "https://github.com/SALimanaim18/ChatApp"
-
-    
-    }
-  ]
+        "name": "Application Web de Transfusion Sanguine",
+        "technologies": "React, Spring Boot, Thymeleaf, Oracle",
+        "description": "Développement du front office avec React.js pour gérer l'interface utilisateur et faciliter la communication avec l'API backend. Création d'une API REST avec Spring Boot pour gérer les dons et demandes de sang, y compris l'authentification et la gestion des utilisateurs. Mise en place du back office avec Spring Boot et Thymeleaf pour administrer les données des donneurs et des demandeurs.",
+        "github": "https://github.com/SALimanaim18/BloodConnectApp",
+        "mediaType": "video",
+        "mediaUrl": "/videos/BloodConnect.mp4"
+      },
+      {
+        "name": "Application Mobile de Suivi des Absences",
+        "technologies": "Java",
+        "description": "Développement d'une application mobile pour suivre les absences des étudiants dans notre établissement.",
+        "github": "https://github.com/SALimanaim18/EmsiSmartPresence",
+        "mediaType": "video",
+        "mediaUrl": "/videos/EmsiSmartPresence.mp4"
+      },
+      {
+        "name": "Site Web de Courtage Automobile",
+        "technologies": "Django, Python, HTML/CSS, JavaScript",
+        "description": "Création d'une plateforme sécurisée reliant les acheteurs et les vendeurs de voitures.",
+        "github": "https://github.com/SALimanaim18/CarApp",
+        "mediaType": "images",
+        "mediaUrls": [
+          "/images/Cardealer1.png",
+          "/images/Cardealer3.png",
+          "/images/Cardealer4.png",
+          "/images/Cardealer5.png",
+          "/images/Cardealer6.png",
+          "/images/Cardealer7.png",
+          "/images/Cardealer8.png",
+          "/images/Cardealer9.png",
+          "/images/Cardealer10.png"
+        ]
+      },
+      {
+        "name": "Application Web de Gestion de Stock",
+        "technologies": "PHP, MySQL, JavaScript",
+        "description": "Développement d'une solution pour gérer les stocks, les ventes et les commandes pour les petites entreprises.",
+        "github": "https://github.com/SALimanaim18/",
+        "mediaType": "video",
+        "mediaUrl": "/videos/StockSens.mp4"
+      },
+      {
+        "name": "Application de Gestion de Comptes Bancaires",
+        "technologies": "C++",
+        "description": "Programmation d'un système sécurisé de gestion de comptes bancaires avec calcul des intérêts et gestion des transactions.",
+        "github": "https://github.com/SALimanaim18/"
+      },
+      {
+        "name": "Application de Chat",
+        "technologies": "Spring Boot, Angular, Firebase",
+        "description": "Création d'une application de chat en temps réel avec Spring Boot et Angular. Gestion des utilisateurs, des messages et de la connectivité en temps réel.",
+        "github": "https://github.com/SALimanaim18/ChatApp"
+      }
+    ]
+  },
+  "contact": {
+  "title": "Contactez-moi",
+  "phone": "Téléphone",
+  "email": "Email",
+  "linkedin": "LinkedIn",
+  "github": "GitHub"
 }
 
-  
 }

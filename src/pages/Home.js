@@ -5,6 +5,8 @@ import About from './About';
 import Skills from './Skills';
 import Projects from './Projects';
 import { Link } from 'react-router-dom';
+import Contact from './Contact';
+
 
 export default function Home() {
   const { t } = useTranslation();
@@ -61,12 +63,20 @@ export default function Home() {
 >
   {t('home.cta_projects')}
 </Link>
-            <a
-              href="#contact"
-              className="px-6 py-3 rounded-full btn-white border-blue-900 text-blue-900 border-2 font-semibold transform transition btn-2 btn-hover"
-            >
-              {t('home.cta_contact')}
-            </a>
+           <button
+  onClick={() => {
+    const contact = document.getElementById('contact');
+    if (contact) {
+      const yOffset = -80; // hauteur de la navbar
+      const y = contact.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+  }}
+  className="px-6 py-3 rounded-full btn-white border-blue-900 text-blue-900 border-2 font-semibold transform transition btn-2 btn-hover"
+>
+  {t('home.cta_contact')}
+</button>
+
           </div>
         </div>
       </section>
@@ -75,6 +85,7 @@ export default function Home() {
       <About id="about" />
       <Skills id="skills" />
       <Projects id="projects" />
+      <Contact id="contact" />
     </>
   );
 }

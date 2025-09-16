@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
+import Contact from './pages/Contact';
 import ProjectsPage from './pages/projects-page';
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/projects-page" element={<ProjectsPage />} />
+         <Route path="/contact" element={<Contact />} />
       </Routes>
    </HashRouter>
   );

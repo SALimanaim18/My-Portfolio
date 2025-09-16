@@ -20,6 +20,8 @@ export default function Navbar() {
           <HashLink smooth to="/#about">{t('navbar.about')}</HashLink>
           <HashLink smooth to="/#skills">{t('navbar.skills')}</HashLink>
           <Link to="/projects-page">{t('navbar.projects')}</Link>
+          <HashLink smooth to="/#contact">{t('navbar.contact')}</HashLink>
+
         </div>
 
         <div className="flex items-center gap-3">
@@ -37,6 +39,8 @@ export default function Navbar() {
           <HashLink smooth to="/#about">{t('navbar.about')}</HashLink>
           <HashLink smooth to="/#skills">{t('navbar.skills')}</HashLink>
           <Link to="/projects-page">{t('navbar.projects')}</Link>
+          <HashLink smooth to="/#contact">{t('navbar.contact')}</HashLink>
+
         </div>
       )}
     </header>
