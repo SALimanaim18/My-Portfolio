@@ -9,7 +9,7 @@ export default function Navbar() {
 
   return (
     <header className="fixed w-full z-50">
-      <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between bg-white/80 backdrop-blur-md shadow-md rounded-b-lg">
+<nav className="w-full px-6 py-4 flex items-center justify-between bg-white/80 backdrop-blur-md shadow-md">
         <div className="flex items-center gap-4">
           <div className="w-10 h-10 rounded-full bg-primary/90 flex items-center justify-center text-white font-bold">S</div>
           <div className="text-xl font-semibold text-primary tracking-wide">Salima Naim</div>

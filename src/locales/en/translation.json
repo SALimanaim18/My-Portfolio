@@ -30,79 +30,62 @@
     "os": { "title": "Operating Systems" }
   },
     
-  "project": {
-    "title": "Projects",
-"description": "I have designed and developed multiple web and mobile applications, demonstrating strong expertise in front-end frameworks, back-end architectures, and database management. My work involves building responsive and user-friendly interfaces, implementing efficient server-side logic, and ensuring data integrity and security. Through these projects, I have gained extensive experience in full-stack development, API integration, and deploying applications in real-world environments, consistently delivering high-quality, maintainable, and scalable solutions.",
-    "cta": "See more"
-  },
-  "projects": {
+"project": {
+  "title": "Projects",
+  "description": "I have designed and developed multiple web and mobile applications, demonstrating strong expertise in front-end frameworks, back-end architectures, and database management. My work involves building responsive and user-friendly interfaces, implementing efficient server-side logic, and ensuring data integrity and security. Through these projects, I have gained extensive experience in full-stack development, API integration, and deploying applications in real-world environments, consistently delivering high-quality, maintainable, and scalable solutions.",
+  "cta": "See more"
+},
+"projects": {
   "title": "Projects",
   "technologies": "Technologies",
   "list": [
     {
       "name": "Blood Transfusion Web Application",
       "technologies": "React, Spring Boot, Thymeleaf, Oracle",
-      "description": "Developed the front office using React.js to manage the user interface and facilitate communication with the backend API. Created a REST API with Spring Boot to handle blood donation and request features, including user authentication and management. Implemented the back office using Spring Boot and Thymeleaf for the administration of donor and requester data.",
+      "description": "Designed and implemented a complete blood donation management platform. The front office was developed with React.js to provide a dynamic and user-friendly interface for donors and requesters. A REST API built with Spring Boot ensured secure authentication, donation requests, and data management. The back office, developed using Spring boot & Thymeleaf, provided administrators with powerful tools to manage users, monitor donation activities, and validate blood requests. The system was backed by Oracle for reliable data storage and consistency.",
       "github": "https://github.com/SALimanaim18/BloodConnectApp",
       "mediaType": "video",
       "mediaUrl": "videos/BloodConnect.mp4"
     },
-   
     {
       "name": "Mobile Absence Tracking Application",
       "technologies": "Java",
-      "description": "Developed a mobile application to track student absences for our educational institution.",
-    "github": "https://github.com/SALimanaim18/EmsiSmartPresence",
-     "mediaType": "video",
+      "description": "Developed a mobile application to help educational institutions track student absences efficiently. The application allowed teachers to mark attendance digitally, reducing paperwork and errors. It provided real-time tracking of student presence, generated reports for administrators, and supported secure login features. This project significantly streamlined the attendance process, making it faster and more reliable.",
+      "github": "https://github.com/SALimanaim18/EmsiSmartPresence",
+      "mediaType": "video",
       "mediaUrl": "videos/EmsiSmartPresence.mp4"
     },
     {
       "name": "Car Brokerage Website",
       "technologies": "Django, Python, HTML/CSS, JavaScript",
-      "description": "Created a secure platform connecting car buyers and sellers.",
+      "description": "Built a secure online platform to connect car buyers and sellers. The system included user registration, authentication, and profile management. Sellers could list vehicles with images and details, while buyers could search and filter based on preferences. The backend was powered by Django, ensuring robust database interactions and secure transactions. The platform was optimized for usability and scalability, offering a seamless browsing and negotiation experience.",
       "github": "https://github.com/SALimanaim18/CarApp",
-        "mediaType": "images",
-  "mediaUrls": [
-    "images/Cardealer1.png",
-     "images/Cardealer3.png",
-     "images/Cardealer4.png",
-          "images/Cardealer5.png",
-     "images/Cardealer6.png",
-     "images/Cardealer7.png",
-     "images/Cardealer8.png",
-     "images/Cardealer9.png",
-     "images/Cardealer10.png"
-
-
-
-  ]
-
+      "mediaType": "video",
+      "mediaUrl": "videos/Cardealer.mp4"
     },
     {
       "name": "Inventory Management Web Application",
       "technologies": "PHP, MySQL, JavaScript",
-      "description": "Developed a solution for managing inventory, sales, and orders for small businesses.",
+      "description": "Designed and deployed a comprehensive inventory management solution for small businesses. The system enabled users to manage stock, track orders, and monitor sales in real time. Features included supplier and client management, automated low-stock alerts, and customizable reports. The backend, built with PHP and MySQL, ensured secure and efficient data handling, while the JavaScript-enhanced front-end provided an intuitive user experience.",
       "github": "https://github.com/SALimanaim18/",
       "mediaType": "video",
       "mediaUrl": "videos/StockSens.mp4"
-
     },
     {
       "name": "Mini Bank Account Management Application",
       "technologies": "C++",
-      "description": "Programmed a secure banking account management system with interest calculations and transaction features.",
+      "description": "Developed a console-based banking system to manage customer accounts with essential financial operations. The system supported deposits, withdrawals, balance inquiries, and interest calculations. It included error handling to prevent invalid transactions and ensured data consistency across operations. This project demonstrated strong problem-solving and algorithmic skills, as well as mastery of object-oriented programming concepts in C++.",
       "github": "https://github.com/SALimanaim18/"
-
     },
-     {
+    {
       "name": "Chat Application",
       "technologies": "Spring Boot, Angular, Firebase",
-      "description": "Built a real-time chat application using Spring Boot and Angular. Managed users, messages, and real-time connectivity.",
-       "github": "https://github.com/SALimanaim18/ChatApp"
-
+      "description": "Created a real-time chat application enabling users to send and receive instant messages. The backend was developed with Spring Boot, providing secure APIs for user management and message storage. The frontend, built with Angular, offered a responsive interface with chat rooms and notifications. Firebase was used for real-time synchronization and message broadcasting, ensuring smooth and immediate communication between users.",
+      "github": "https://github.com/SALimanaim18/ChatApp"
     }
   ]
-},
+}
+,
 "contact": {
   "title": "Contact Me",
   "phone": "Phone",
